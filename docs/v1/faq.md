@@ -2,7 +2,8 @@
 title: 常见问题
 order: 30
 ---
-# 常见问题
+
+# {{ $frontmatter.title }}
 
 ## 为什么我自己的cfg无法自动加载？
 

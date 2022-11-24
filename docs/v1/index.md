@@ -3,7 +3,7 @@ title: 使用说明
 order: 0
 ---
 
-# 使用说明
+# {{ $frontmatter.title }}
 
 Purp1e(@[Purple-CSGO](https://space.bilibili.com/73115492))制作
 

@@ -2,7 +2,8 @@
 title: 更新日志
 order: 20
 ---
-# 更新日志
+
+# {{ $frontmatter.title }}
 
 ## V1.6c
   

@@ -2,7 +2,8 @@
 title: 武器购买代码表
 order: 60
 ---
-# 武器购买代码表
+
+# {{ $frontmatter.title }}
 
 Purp1e(@[Purple-CSGO](https://space.bilibili.com/73115492))制作
 

@@ -3,7 +3,7 @@ title: 可选指令
 order: 50
 ---
 
-# 可选指令
+# {{ $frontmatter.title }}
 
 Purp1e(@[Purple-CSGO](https://space.bilibili.com/73115492))制作
 

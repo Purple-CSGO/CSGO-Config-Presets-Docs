@@ -2,7 +2,8 @@
 title: 聊天轮盘指令清单
 order: 70
 ---
-# 聊天轮盘指令清单
+
+# {{ $frontmatter.title }}
 
 Purp1e(@[Purple-CSGO](https://space.bilibili.com/73115492))制作
 

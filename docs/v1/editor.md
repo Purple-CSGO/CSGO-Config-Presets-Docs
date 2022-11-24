@@ -1,8 +1,9 @@
 ---
-title: 编辑器
+title: 编辑器配置
 order: 40
 ---
-# 编辑器
+
+# {{ $frontmatter.title }}
 
 推荐使用 `VSCode` 编辑CFG文件，已经有大佬做好语法高亮插件。
 
