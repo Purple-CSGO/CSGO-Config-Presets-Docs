@@ -6,6 +6,7 @@ export default {
   title: 'CFG预设文档',
   description: '预设涵盖了CSGO几乎所有应用的场景，适用于对CSGO指令不太熟悉，想要到手即用，节省时间的玩家',
   cleanUrls: 'with-subfolders',
+  lastUpdated: true,
 
   // Markdown 解析
   markdown: {
@@ -15,12 +16,30 @@ export default {
 
   // 主题设置
   themeConfig: {
+    // logo: '/logo.svg',
+
+    // 编辑链接
+    editLink: {
+      pattern: 'https://github.com/Purple-CSGO/CSGO-Config-Presets-Docs/edit/master/docs/:path',
+      text: '在 GitHub 上编辑此页'
+    },
+
+    // 广告区域
+    // carbonAds: {
+    //   code: 'your-carbon-code',
+    //   placement: 'your-carbon-placement'
+    // },
+
     // 文本
     lastUpdatedText: '更新日期',
     docFooter: {
       prev: '上一篇',
       next: '下一篇'
     },
+    
+    // 目录/摘要显示层级
+    outline: [2, 3],
+    outlineTitle: '目录',
 
     // 导航栏
     nav: [
