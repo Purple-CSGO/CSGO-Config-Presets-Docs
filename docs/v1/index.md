@@ -21,6 +21,11 @@ CSGO工具箱： <https://github.com/One-Studio/CSGO-Toolbox>
 
 ![](img/请修改记事本字体为Consolas之类的等宽字体.png)
 
+## 下载
+
+- [加速下载](https://api.upup.cool/get/csgo-cfg)
+- [GitHub下载](https://github.com/Purple-CSGO/CSGO-Config-Presets/releases/latest)
+
 ## 文件作用
 
 ### 游戏设置核心
