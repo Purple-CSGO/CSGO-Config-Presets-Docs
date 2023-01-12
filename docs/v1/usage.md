@@ -5,26 +5,53 @@ order: 5
 
 # {{ $frontmatter.title }}
 
+## 备份游戏设置
 
-1. **备份设置文件！备份设置文件！备份设置文件！**
+### 方法一 另存设置
 
-   - 个人设置文件夹 `...\Steam\userdata\(32位ID)\730\local\cfg\`
+控制台输入 `host_writeconfig backup` 即可生成 `backup.cfg`，必要时 `exec backup` 恢复
 
-   - 游戏设置文件夹 `...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`
+### 方法二 手动备份
 
-   > 32位->二进制位，大多8~10位十进制数字
+备份个人CFG文件夹的所有文件到另一位置
+- `config.cfg` 和 `video.txt` 分别对应**游戏设置**和**画面设置**
+- 个人设置文件夹 `Steam\userdata\Steam数字ID\730\local\cfg\`
+- 游戏设置文件夹 `Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`
 
-2. ID不知道怎么办？
+#### Steam数字ID不知道怎么办？
 
-   - 打开 Steam 的 `添加好友` 页面，**ID=好友代码**
+- 打开 Steam 的 `添加好友` 页面，**ID=好友代码**
+- 登录 <https://steamid.io/>
+  - 复制个人资料简介，如 `https://steamcommunity.com/id/1234567890/`
+  - 第二行，如 SteamID3 [U:1:`146859713`] ，ID=`146859713`
 
-   - 登录 <https://steamid.io/>
+### 方法三 工具箱
 
-     - 复制个人资料简介，如 `https://steamcommunity.com/id/1234567890/`
+下载[CSGO工具箱](https://csgo-toolbox.upup.cool)，自动获取路径、选择账号后可在`CFG页`备份与还原
 
-     - 第二行，如 SteamID3 [U:1:`146859713`] ，ID=`146859713`
 
-3. //是"注释" 在它出现的那一行，之后的内容都不会被读取
+## 使用方法
+
+### 修改
+
+- 打开 `auto.cfg` 修改各快捷键和参数
+- 打开 `crosshair.cfg` 修改准星参数
+- 从[可选指令](/v1/optional.html)中挑选合适的指令写入cfg
+
+提示
+
+- 可以把游戏设置成**窗口模式**对应着改
+- **准星、持枪参数**可从创意工坊地图导出或使用下文的方法
+
+### 移动
+
+修改完成后移动到CFG文件夹：
+- 个人CFG文件夹仅该玩家使用，方便打包
+- 游戏CFG所有本机账号共享，请自行取舍
+
+### 注释说明
+
+`//` 是**注释** 在它出现的那一行，之后的内容都不会被读取
 
    ```
    这是指令;    //这是注释
@@ -36,19 +63,9 @@ order: 5
    //这是指令;    //这是注释
    ```
 
-4. 修改 `auto.cfg` 中的参数
-
-   - 可以把游戏设置成**窗口模式**对应着改
-
-   - **准星、持枪参数**可到创意工坊地图导出
-
-   - 或使用下文的方法
-
-5. 修改完成后移动到CFG文件夹（步骤1），个人CFG文件夹仅该玩家使用，方便打包；游戏CFG所有本机账号共享，请自行取舍。
-
 ## 准星&持枪参数导出
 
-分开使用，复制到控制台，即可得到对应参数。
+分开使用，复制到控制台，即可得到对应参数
 
 ```
 echo ;echo "==================== 准星参数 ====================";echo ;sv_max_allowed_developer 2;developer 2;
