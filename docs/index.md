@@ -12,6 +12,9 @@ hero:
     - theme: brand
       text: 了解一下
       link: /v1/
+    - theme: brand
+      text: CS2
+      link: /v2/
     - theme: alt
       text: 项目
       link: https://github.com/Purple-CSGO/CSGO-Config-Presets
