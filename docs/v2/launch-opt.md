@@ -20,4 +20,3 @@ order: 10
 | -noborder                                        | 窗口无边框                  |
 | -refresh 240  或 -freq 240                       | 刷新率 `240hz` 根据显示器调整    |
 | -w 1920 -h 1080                                  | 分辨率 `1920x1080` 根据偏好调整 |
-| -tickrate 128 +cl_cmdrate 128 +cl_updaterate 128 | 128tick                |
