@@ -6,9 +6,8 @@ export default {
   title: "CFG预设文档",
   description:
     "预设涵盖了CSGO几乎所有应用的场景，适用于对CSGO指令不太熟悉，想要到手即用，节省时间的玩家",
-  cleanUrls: "with-subfolders",
-  lastUpdated: true,
   cleanUrls: false,
+  lastUpdated: true,
 
   // Markdown 解析
   markdown: {
