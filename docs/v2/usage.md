@@ -18,6 +18,10 @@ order: 5
 - 个人设置文件夹 `Steam\userdata\Steam数字ID\730\local\cfg\`
 - 游戏设置文件夹 `Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`
 
+::: warning
+CS2个人设置文件夹无法在控制台执行
+:::
+
 #### Steam数字ID不知道怎么办？
 
 - 打开 Steam 的 `添加好友` 页面，**ID=好友代码**

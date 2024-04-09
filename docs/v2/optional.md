@@ -7,6 +7,10 @@ order: 50
 
 Purp1e(@[Purple-CSGO](https://space.bilibili.com/73115492))制作
 
+::: warning
+以下指令未在CS2验证，请确认无问题再使用
+:::
+
 ## Virre准星
 
 ```
