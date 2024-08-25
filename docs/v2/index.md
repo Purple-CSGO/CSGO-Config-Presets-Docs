@@ -16,8 +16,13 @@ order: 0
 
 ### 下载
 
+- [HLAE中文站](https://hlae.site)
 - [加速下载](https://api.upup.cool/get/cs2-cfg)
 - [GitHub下载](https://github.com/Purple-CSGO/CS2-Config-Presets/releases/latest)
+- 帧数基准测试：https://purp1e.lanzouj.com/b01lzyyef 密码:1fn4
+- CFG 预设 For CS2：https://purp1e.lanzouj.com/b01lzyyfg 密码:41wc
+- CS2 Reshade 整合包：https://purp1e.lanzouj.com/b0ny8cdij 密码:9as4
+
 
 ### 传送门
 
