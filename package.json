@@ -13,10 +13,10 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "1.0.2",
-    "vue": "^3.4.21"
+    "vue": "^3.4.38"
   },
   "dependencies": {
-    "@algolia/client-search": "^4.23.2",
+    "@algolia/client-search": "^4.24.0",
     "@stuyk/vitepress-sidebar-builder": "^1.0.2"
   }
 }

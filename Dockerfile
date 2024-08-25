@@ -5,7 +5,9 @@ RUN apk add --no-cache git
 WORKDIR /app
 COPY package.json ./
 # COPY pnpm-lock.yaml ./
+RUN npm config set registry=https://registry.npmmirror.com
 RUN npm install -g pnpm
+RUN pnpm config set registry=https://registry.npmmirror.com
 RUN pnpm install
 COPY . .
 RUN pnpm build
