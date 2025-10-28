@@ -14,6 +14,7 @@ order: 5
 ### 方法二 手动备份
 
 备份个人CFG文件夹的所有文件到另一位置
+
 - `config.cfg` 和 `video.txt` 分别对应**游戏设置**和**画面设置**
 - 个人设置文件夹 `Steam\userdata\Steam数字ID\730\local\cfg\`
 - 游戏设置文件夹 `Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`
@@ -25,14 +26,13 @@ CS2个人设置文件夹无法在控制台执行
 #### Steam数字ID不知道怎么办？
 
 - 打开 Steam 的 `添加好友` 页面，**ID=好友代码**
-- 登录 <https://steamid.io/>
+- 登录 [https://steamid.io/](https://steamid.io/)
   - 复制个人资料简介，如 `https://steamcommunity.com/id/1234567890/`
   - 第二行，如 SteamID3 [U:1:`146859713`] ，ID=`146859713`
 
 ### 方法三 工具箱
 
-下载[CSGO工具箱](https://csgo-toolbox.upup.cool)，自动获取路径、选择账号后可在`CFG页`备份与还原
-
+下载[CS工具箱](https://cstb.upup.cool)，自动获取路径、选择账号后可在 `CFG页`备份与还原
 
 ## 使用方法
 
@@ -50,6 +50,7 @@ CS2个人设置文件夹无法在控制台执行
 ### 移动
 
 修改完成后移动到CFG文件夹：
+
 - 个人CFG文件夹仅该玩家使用，方便打包
 - 游戏CFG所有本机账号共享，请自行取舍
 
@@ -57,15 +58,15 @@ CS2个人设置文件夹无法在控制台执行
 
 `//` 是**注释** 在它出现的那一行，之后的内容都不会被读取
 
-   ```
+```
    这是指令;    //这是注释
-   ```
+```
 
    如果不想用某条指令，就在指令前加上注释，或者直接删除:
 
-   ```
+```
    //这是指令;    //这是注释
-   ```
+```
 
 ## 准星&持枪参数导出
 
@@ -90,5 +91,7 @@ con_filter_text cl_bob;host_writeconfig;developer 0;con_filter_enable 0;
 ```
 apply_crosshair_code CSGO-cS6Fv-iBc8r-sroTA-4jyik-OYTSH
 ```
+
+> CS2 已经禁用了该指令，只有在解锁控制台隐藏指令后才能生效
 
 ![准星代码](./img/准星代码.png)

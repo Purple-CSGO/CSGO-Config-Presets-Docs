@@ -5,9 +5,7 @@ order: 0
 
 # {{ $frontmatter.title }}
 
-> 适用于CS2几乎所有场景的CFG预设文件 - Purp1e(aka [Purple-CSGO](https://space.bilibili.com/73115492))制作
-
-> 文档等待更新，施工中...
+> 适用于CS2几乎所有场景的CFG预设文件 - @[Purple紫](https://space.bilibili.com/73115492) 制作
 
 - 项目始于2018年8月，这套预设涵盖了几乎所有应用的场景，注释详细
 - 所有的参数都经过详细的测试，按键位置仔细斟酌，确保每个功能的按键都在它用起来最舒服的位置
@@ -19,15 +17,13 @@ order: 0
 - [HLAE中文站](https://hlae.site)
 - [加速下载](https://api.upup.cool/get/cs2-cfg)
 - [GitHub下载](https://github.com/Purple-CSGO/CS2-Config-Presets/releases/latest)
-- 帧数基准测试：https://purp1e.lanzouj.com/b01lzyyef 密码:1fn4
-- CFG 预设 For CS2：https://purp1e.lanzouj.com/b01lzyyfg 密码:41wc
-- CS2 Reshade 整合包：https://purp1e.lanzouj.com/b0ny8cdij 密码:9as4
-
+- 帧数基准测试：https://purp1e.lanzouu.com/b01lzyyef 密码:1fn4
+- CFG 预设 For CS2：https://purp1e.lanzouu.com/b01lzyyfg 密码:41wc
+- CS2 Reshade 整合包：https://purp1e.lanzouu.com/b0ny8cdij 密码:9as4
 
 ### 传送门
 
-
-[控制台指令](https://tools.dathost.net/csgo-commands) · [HLAE Studio](https://github.com/One-Studio/HLAE-Studio) · [CSGO工具箱](https://csgo-toolbox.upup.cool/)
+[控制台指令](https://tools.dathost.net/csgo-commands) · [HLAE Studio](https://github.com/One-Studio/HLAE-Studio) · [CS工具箱](https://cstb.upup.cool/)
 
 ### 编辑器
 
@@ -36,4 +32,3 @@ order: 0
 > 也可以前往[编辑器](/v1/editor.html)页面配置VSCode
 
 ![](img/请修改记事本字体为Consolas之类的等宽字体.png)
-

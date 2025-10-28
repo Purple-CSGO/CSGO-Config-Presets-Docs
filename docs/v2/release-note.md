@@ -27,7 +27,7 @@ order: 20
 - 补充 MVP 音量的指令 `snd_mvp_volume 0`
 - 助攻切换指令 `ass` 和 关闭各类声音指令 `mute` 加上控制台提示
 - 增加一键独显玩家击杀信息，切换第一人称视角后使用，快捷键 `J`，关闭时清空所有击杀信息
-- 增加玩家信息查看和屏蔽语音提示功能，快捷键`L`，可查看userid、xuid、观察按键（数字x切换到对应玩家），提示如何屏蔽某个玩家的语音，并提供快捷指令，`m1`, `m2` 等指令屏蔽对应 #用户id 的玩家，`um` 取消所有屏蔽
+- 增加玩家信息查看和屏蔽语音提示功能，快捷键 `L`，可查看userid、xuid、观察按键（数字x切换到对应玩家），提示如何屏蔽某个玩家的语音，并提供快捷指令，`m1`, `m2` 等指令屏蔽对应 #用户id 的玩家，`um` 取消所有屏蔽
 
 ### demo.cfg
 
@@ -53,14 +53,15 @@ order: 20
 - 增加第一人称视角曳光弹的开关指令，默认开启
 
 ### demo.cfg & hlae.cfg
+
 - 修复准星问题 `exec crosshair_throw` 替换为推荐的默认准星
 - 默认关闭道具准星功能，避免影响录像
 
 ### hlae.cfg
+
 - 增加 `mirv_reshade enabled 1` 指令，启用 Reshade 功能
 
 > 已适配最新版本hlae，下载整合包并配置后可以使用景深、SSR “打蜡”等效果
-
 
 ## V2.5
 
@@ -73,11 +74,12 @@ order: 20
 - 移除已失效的 `cl_usenewbob` 指令
 
 ### crosshair_throw.cfg
+
 - 重新加回，因为 `apply_crosshair_code` 已失效
 
 ### demo.cfg & hlae.cfg
-- 替换准星代码指令 `apply_crosshair_code` 相关指令，改为 `exec crosshair_throw`
 
+- 替换准星代码指令 `apply_crosshair_code` 相关指令，改为 `exec crosshair_throw`
 
 ## v2.4b
 
