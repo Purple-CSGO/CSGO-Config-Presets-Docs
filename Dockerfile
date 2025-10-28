@@ -1,20 +1,18 @@
 # Vue 依赖和构建
-FROM node:20-alpine AS build
-RUN echo "https://mirrors.aliyun.com/alpine/v3.19/main/" > /etc/apk/repositories
+FROM oven/bun:alpine AS build
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
 RUN apk add --no-cache git
 WORKDIR /app
 COPY package.json ./
-# COPY pnpm-lock.yaml ./
-RUN npm config set registry=https://registry.npmmirror.com
-RUN npm install -g pnpm
-RUN pnpm config set registry=https://registry.npmmirror.com
-RUN pnpm install
+RUN bun install --registry=https://registry.npmmirror.com
 COPY . .
-RUN pnpm build
+RUN bun run build
 
 # Nginx
 FROM nginx:alpine AS prod-stage
-COPY --from=build /app/docs/.vitepress/dist /usr/share/nginx/html
+
+COPY --from=build /app/docs/.vitepress/dist /app
+COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 

@@ -1,0 +1,7 @@
+services:
+  config-docs:
+    image: purp1e/config-docs:latest
+    ports:
+      - "998:80"
+    container_name: config-docs
+    restart: unless-stopped
